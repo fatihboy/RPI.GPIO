@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprisecoding.RPI.GPIO.LedTest", "Enterprisecoding.RPI.GPIO.LedTest\Enterprisecoding.RPI.GPIO.LedTest.csproj", "{B64A39A9-629E-43E2-BBCA-80A2696DBD38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{88A07C0D-EE9F-43B0-9B0C-8FA9F3CC9574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88A07C0D-EE9F-43B0-9B0C-8FA9F3CC9574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88A07C0D-EE9F-43B0-9B0C-8FA9F3CC9574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64A39A9-629E-43E2-BBCA-80A2696DBD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64A39A9-629E-43E2-BBCA-80A2696DBD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64A39A9-629E-43E2-BBCA-80A2696DBD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64A39A9-629E-43E2-BBCA-80A2696DBD38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

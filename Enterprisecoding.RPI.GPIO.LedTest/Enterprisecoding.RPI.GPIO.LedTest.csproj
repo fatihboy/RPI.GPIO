@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{44259DAC-CACB-4023-9C15-766855FBFD56}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{B64A39A9-629E-43E2-BBCA-80A2696DBD38}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Com.Enterprisecoding.RPI.GPIO</RootNamespace>
-    <AssemblyName>Enterprisecoding.RPI.GPIO</AssemblyName>
+    <RootNamespace>Enterprisecoding.RPI.GPIO.LedTest</RootNamespace>
+    <AssemblyName>Enterprisecoding.RPI.GPIO.LedTest</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -20,16 +21,15 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -41,24 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoardInfo.cs" />
-    <Compile Include="Enums\DigitalValue.cs" />
-    <Compile Include="Enums\InterruptLevels.cs" />
-    <Compile Include="Enums\PiMaker.cs" />
-    <Compile Include="Enums\PiModel.cs" />
-    <Compile Include="Enums\PinMode.cs" />
-    <Compile Include="Enums\PiVersion.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Enums\PullMode.cs" />
-    <Compile Include="Enums\PWMMode.cs" />
-    <Compile Include="Enums\WPIMode.cs" />
-    <Compile Include="Utilities.cs" />
-    <Compile Include="WiringPi.cs" />
-    <Compile Include="WiringPiNode.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LICENSE.md" />
-    <None Include="README.md" />
+    <ProjectReference Include="..\Enterprisecoding.RPI.GPIO\Enterprisecoding.RPI.GPIO.csproj">
+      <Project>{44259dac-cacb-4023-9c15-766855fbfd56}</Project>
+      <Name>Enterprisecoding.RPI.GPIO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
