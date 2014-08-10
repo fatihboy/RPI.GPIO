@@ -57,6 +57,7 @@
     <Compile Include="WiringPiNode.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Enterprisecoding.RPI.GPIO.nuspec" />
     <None Include="LICENSE.md" />
     <None Include="README.md" />
   </ItemGroup>

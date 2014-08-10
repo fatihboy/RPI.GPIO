@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>$id$</id>
+		<version>1.0.0.0</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<iconUrl>https://raw.githubusercontent.com/fatihboy/RPI.GPIO/master/RPI_GPIO.png</iconUrl>
+    <projectUrl>https://github.com/fatihboy/RPI.GPIO</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/fatihboy/RPI.GPIO/master/LICENSE.md</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>$description$</description>
+		<releaseNotes>Initial release. Details can be found at project homepage</releaseNotes>
+		<copyright>Copyright 2014 Fatih Boy</copyright>
+		<tags>RaspberryPi GPIO</tags>
+	</metadata>
+</package>
