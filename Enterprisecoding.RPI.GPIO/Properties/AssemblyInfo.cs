@@ -1,16 +1,33 @@
-﻿using System.Reflection;
+﻿/*************************************************************************************************
+ *                   Enterprisecoding Raspberry Pi GPIO Library                                  *
+ *                        (http://enterprisecoding.com)                                          *
+ *                                                                                               *
+ * This class library is written by Fatih Boy to act as a wrapper for Gordon Hendersons WiringPi *
+ * I take no responsibility for this wrapper class providing proper functionality and give no    *
+ * warranty of any kind, nor it's use or fitness for any purpose. You use this wrapper at your   *
+ * own risk.                                                                                     *
+ *                                                                                               *
+ * This code is released as Open Source under GNU LGPL license, please ensure that you have a    *
+ * copy of the license and understand the usage terms and conditions.                            *
+ *                                                                                               *
+ * I take no credit for the underlying functionality that this wrapper provides.                 *
+ *                                                                                               *
+ * Latest version can be found at https://github.com/fatihboy/RPI.GPIO                           *
+ *************************************************************************************************/
+
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Enterprisecoding.RPI.GPIO")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Enterprisecoding Raspberry Pi GPIO Library")]
+[assembly: AssemblyDescription("Enterprisecoding raspberry pi GPIO library")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Enterprisecoding.RPI.GPIO")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany("Enterprisecoding.com")]
+[assembly: AssemblyProduct("RPI.GPIO")]
+[assembly: AssemblyCopyright("Copyright ©  2014 Fatih Boy")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
