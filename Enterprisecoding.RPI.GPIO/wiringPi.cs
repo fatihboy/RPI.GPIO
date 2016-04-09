@@ -94,7 +94,7 @@ namespace Com.Enterprisecoding.RPI.GPIO {
                 var boardInfo = new BoardInfo {
                     Model = (PiModel)(int)model,
                     Revision = (PiVersion)(int)rev,
-                    Memory = (int)mem,
+                    Memory = (PiMemory)(int)mem,
                     Maker = (PiMaker)(int)maker,
                     OverVolted = (int)overVolted == 1
                 };

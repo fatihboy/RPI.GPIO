@@ -45,6 +45,7 @@
     <Compile Include="Enums\DigitalValue.cs" />
     <Compile Include="Enums\InterruptLevels.cs" />
     <Compile Include="Enums\PiMaker.cs" />
+    <Compile Include="Enums\PiMemory.cs" />
     <Compile Include="Enums\PiModel.cs" />
     <Compile Include="Enums\PinMode.cs" />
     <Compile Include="Enums\PiVersion.cs" />

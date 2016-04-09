@@ -15,48 +15,21 @@
  * Latest version can be found at https://github.com/fatihboy/RPI.GPIO                           *
  *************************************************************************************************/
 
-using Com.Enterprisecoding.RPI.GPIO.Enums;
-using System.Collections.Generic;
+namespace Com.Enterprisecoding.RPI.GPIO.Enums {
+    public enum PiMemory {
+        /// <summary>
+        /// 256M
+        /// </summary>
+        M256 = 0,
 
-namespace Com.Enterprisecoding.RPI.GPIO
-{
-    public static class Utilities {
-        private static Dictionary<PiModel, string> piModelNames = new Dictionary<PiModel, string> {
-            {PiModel.A, "Model A"},
-            {PiModel.B, "Model B"},
-            {PiModel.AP, "Model A+"},
-            {PiModel.BP, "Model B+"},
-            {PiModel.P2, "Model Pi 2"},
-            {PiModel.Alpha, "Model Alpha"},
-            {PiModel.CM, "Model CM"},
-            {PiModel.M07, "Model 07"},
-            {PiModel.P3, "Model P3"},
-            {PiModel.ZERO, "Model Zero"}
-        };
+        /// <summary>
+        /// 512M
+        /// </summary>
+        M512 = 1,
 
-        private static Dictionary<PiVersion, string> piVersionNames = new Dictionary<PiVersion, string> {
-            {PiVersion.v1, "1"},
-            {PiVersion.v1_1, "1.1"},
-            {PiVersion.v1_2, "1.2"},
-            {PiVersion.v2, "2"},
-        };
-
-        private static Dictionary<PiMemory, short> piMemoryValues = new Dictionary<PiMemory, short> {
-            {PiMemory.M256, 256},
-            {PiMemory.M512, 512},
-            {PiMemory.G1, 1024}
-        };
-
-        public static string GetModelName(PiModel model) {
-            return piModelNames[model];
-        }
-
-        public static string GetVersionName(PiVersion version) {
-            return piVersionNames[version];
-        }
-
-        public static short GetMemoryValue(PiMemory memory)  {
-            return piMemoryValues[memory];
-        }
+        /// <summary>
+        /// 1024M/1G
+        /// </summary>
+        G1 = 2
     }
 }

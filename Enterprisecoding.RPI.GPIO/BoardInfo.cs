@@ -21,10 +21,11 @@ namespace Com.Enterprisecoding.RPI.GPIO {
     public class BoardInfo {
         private string modelName;
         private string versionName;
+        private short memoryValue;
 
         public PiModel Model;
         public PiVersion Revision;
-        public int Memory;
+        public PiMemory Memory;
         public PiMaker Maker;
         public bool OverVolted;
 
@@ -45,6 +46,19 @@ namespace Com.Enterprisecoding.RPI.GPIO {
                 }
 
                 return versionName;
+            }
+        }
+
+        /// <summary>
+        /// Memory value in MB
+        /// </summary>
+        public short MemoryValue  {
+            get {
+                if (memoryValue==0) {
+                    memoryValue = Utilities.GetMemoryValue(Memory);
+                }
+
+                return memoryValue;
             }
         }
     }

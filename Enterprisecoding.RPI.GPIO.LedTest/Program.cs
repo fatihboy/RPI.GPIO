@@ -30,16 +30,9 @@ namespace Enterprisecoding.RPI.GPIO.LedTest {
 
             var boardInfo = WiringPi.OnBoardHardware.PiBoardInfo();
 
-            if (boardInfo.Model == PiModel.Unknown) {
-                Console.WriteLine("Your Raspberry Pi has an unknown model type. Please report this to");
-                Console.WriteLine("    fatih@enterprisecoding.com");
-                Console.WriteLine("with a copy of your /proc/cpuinfo if possible");
-            }
-            else {
-                Console.WriteLine("Raspberry Pi Details:");
-                Console.WriteLine("  Type: {0}, Revision: {1}, Memory: {2}MB, Maker: {3} {4}",
-                    boardInfo.ModelName, boardInfo.RevisionName, boardInfo.Memory, boardInfo.Maker, boardInfo.OverVolted ? "[OV]" : "");
-            }
+            Console.WriteLine("Raspberry Pi Details:");
+            Console.WriteLine("  Type: {0}, Revision: {1}, Memory: {2}MB, Maker: {3} {4}",
+            boardInfo.ModelName, boardInfo.RevisionName, boardInfo.MemoryValue, boardInfo.Maker, boardInfo.OverVolted ? "[OV]" : "");
 
             int result = WiringPi.Core.Setup();
 

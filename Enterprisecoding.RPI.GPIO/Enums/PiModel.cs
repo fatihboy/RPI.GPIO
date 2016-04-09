@@ -17,10 +17,15 @@
 
 namespace Com.Enterprisecoding.RPI.GPIO.Enums {
     public enum PiModel {
-        Unknown = 0,
-        A = 1,
-        B = 2,
+        A = 0,
+        B = 1,
+        AP = 2,
         BP = 3,
-        CM = 4
+        P2 = 4,
+        Alpha = 5,
+        CM = 6,
+        M07 = 7,
+        P3 = 8,
+        ZERO = 9
     }
 }
