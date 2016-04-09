@@ -3,6 +3,10 @@
 
 This C# library is written for handling Raspberry Pi GPIO functionality. It's a simple wrapper for [Gordon's WiringPi](http://wiringpi.com/) library, a GPIO access library written in C for the BCM2835 used in the Raspberry Pi.
 
+# Nuget Package
+
+https://www.nuget.org/packages/Enterprisecoding.RPI.GPIO
+
 
 # Version Info
 
