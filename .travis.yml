@@ -2,3 +2,4 @@ language: csharp
 
 mono: 3.2.8
 solution: Enterprisecoding.RPI.GPIO.sln
+script: MONO_IOMAP=case xbuild /p:Configuration=Release Enterprisecoding.RPI.GPIO.sln
