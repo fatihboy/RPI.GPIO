@@ -1,6 +1,7 @@
 # Enterprisecoding Raspberry Pi GPIO library
 
 [![Build Status](https://travis-ci.org/fatihboy/RPI.GPIO.svg?branch=master)](https://travis-ci.org/fatihboy/RPI.GPIO)
+[![NuGet Package](https://img.shields.io/nuget/v/Enterprisecoding.RPI.GPIO.svg)](https://www.nuget.org/packages/Enterprisecoding.RPI.GPIO)
 
 This C# library is written for handling Raspberry Pi GPIO functionality. It's a simple wrapper for [Gordon's WiringPi](http://wiringpi.com/) library, a GPIO access library written in C for the BCM2835 used in the Raspberry Pi.
 
