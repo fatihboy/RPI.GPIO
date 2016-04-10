@@ -11,6 +11,7 @@ https://www.nuget.org/packages/Enterprisecoding.RPI.GPIO
 # Version Info
 
 **RPI.GPIO :** 1.1
+
 **Wiring Pi :** 2.32
 
 # Installation
@@ -102,7 +103,7 @@ Raspberry Pi Details:
 Looping Pin 0...
 ```
 
-Note Tthat; sample application will loop through pin 0. Turns On & Off.
+Note that; sample application will loop through pin 0. Turns On & Off.
 
 # License
 
@@ -110,4 +111,4 @@ LGPL
 
 # More Details...
 
-More details can be found on my blog [http://enterprisecoding.com]
+More details can be found on my blog [http://www.enterprisecoding.com/post/tag/rpi-gpio]
