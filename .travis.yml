@@ -1,0 +1,4 @@
+language: csharp
+
+mono: 3.2.8
+solution: Enterprisecoding.RPI.GPIO.sln
