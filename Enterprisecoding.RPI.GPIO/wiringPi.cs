@@ -52,7 +52,7 @@ namespace Com.Enterprisecoding.RPI.GPIO {
             [DllImport("libwiringPi.so", EntryPoint = "digitalRead")]
             private static extern int DigitalReadInt(int pin);
 
-            private static DigitalValue DigitalRead(int pin) {
+            public static DigitalValue DigitalRead(int pin) {
                 return (DigitalValue)DigitalReadInt(pin);
             }
 
